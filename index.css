@@ -1,0 +1,466 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.top-background {
+  background: url(img/hero_desktop.webp);
+  background-size: cover;
+  background-position: center;
+  height: 40.6rem;
+  position: relative;
+}
+
+.nav {
+  display: flex;
+  padding-top: 1.25rem;
+}
+
+.logo {
+  width: 6.25rem;
+  margin: auto;
+}
+
+.nav-btn {
+  padding-right: 1.25rem;
+  padding-top: 0.625rem;
+}
+
+.signin-btn {
+  padding: 0.625rem;
+  background-color: #eb1700;
+  border: none;
+  border-radius: 1.87rem;
+  color: #fff;
+  font-weight: bold;
+  margin: 0.31rem;
+  font-size: 1.1rem;
+}
+
+.signup-btn {
+  padding: 0.625rem;
+  background-color: #fff;
+  border: none;
+  font-size: 1.1rem;
+  border-radius: 1.87rem;
+  color: black;
+  font-weight: bolder;
+  margin: 0.3rem;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  margin-top: 12.5rem;
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: column;
+}
+
+.saved-btn {
+  text-align: center;
+  width: 12.5rem;
+  margin: auto;
+  padding: 0.3rem;
+  border: none;
+  border-radius: 1.87rem;
+  background-color: #ffffff;
+  font-weight: bolder;
+}
+
+.search {
+  text-align: center;
+  width: 18.75rem;
+  padding: 0.9rem;
+  border-radius: 1.87rem;
+  margin: 0.9rem auto;
+  border: none;
+}
+
+.second-layer {
+  position: relative;
+  height: 37.5rem;
+}
+
+.cards {
+  width: 18.75rem;
+  text-align: center;
+}
+
+.cards h2 {
+  margin: 1.25rem 0;
+  font-size: 2rem;
+}
+
+.cards p {
+  margin: 0.625rem 0;
+  font-weight: 600;
+}
+
+.cards a {
+  color: #eb1700;
+  font-weight: 700;
+}
+
+.scootcard {
+  position: absolute;
+  top: 6.25rem;
+  left: 12.5rem;
+}
+
+.storecard {
+  position: absolute;
+  top: 6.25rem;
+  left: 40.6rem;
+}
+
+.phonecard {
+  position: absolute;
+  top: 6.25rem;
+  right: 12.5rem;
+}
+
+.third-layer {
+  position: relative;
+  height: 30rem;
+  padding: 6.25rem;
+}
+
+.btn {
+  padding: 0.625rem;
+  color: #fff;
+  background-color: #eb1700;
+  border-radius: 1.87rem;
+  font-weight: 500;
+  margin-top: 0.625rem;
+}
+
+.aside {
+  width: 25rem;
+  margin-left: 3.125rem;
+  padding: 3.125rem;
+}
+
+.aside h2 {
+  margin-bottom: 1.25rem;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.aside h3 {
+  margin-bottom: 0.9rem;
+}
+
+.aside p {
+  margin-bottom: 2.5rem;
+  font-weight: 500;
+}
+
+.third-layer .aside_img {
+  position: absolute;
+  top: 0;
+  right: 12.5rem;
+}
+
+.fourth-layer {
+  position: relative;
+  z-index: -1;
+  background-color: #fef1ee;
+  height: 40.6rem;
+  padding: 3.125rem;
+}
+
+.fourth-layer .aside_img {
+  position: absolute;
+  top: 6.25rem;
+  left: 9.3rem;
+}
+
+.aside2 {
+  width: 25rem;
+  position: absolute;
+  right: 1.25rem;
+  padding: 9.3rem;
+  top: 6.25rem;
+}
+
+.aside2 h2 {
+  margin-bottom: 0.625rem;
+  font-weight: 900;
+  font-size: 2.3rem;
+}
+
+.aside2 p {
+  margin-bottom: 1.87rem;
+}
+
+.relatived-fifth {
+  position: relative;
+  margin-bottom: 6.25rem;
+}
+.fifth-layer {
+  background-image: url(img/grocery_desktop.avif);
+  background-size: cover;
+  background-position: center;
+  height: 37.5rem;
+}
+
+.text-centered {
+  background-color: black;
+  height: 37.5rem;
+  opacity: 0.6;
+}
+
+.text {
+  text-align: center;
+  color: #fff;
+  width: 25rem;
+  position: absolute;
+  top: 9.3rem;
+  left: 37.5rem;
+}
+
+.text h2 {
+  margin-bottom: 0.625rem;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.text h3 {
+  margin-bottom: 1.25rem;
+  font-weight: 700;
+}
+
+.text p {
+  margin-bottom: 1.87rem;
+  font-weight: 600;
+}
+
+.sixth-layer {
+  background-color: #fef1ee;
+  height: 125rem;
+  position: relative;
+  z-index: -1;
+}
+
+.sixth-layer h2 {
+  text-align: center;
+  padding-top: 6.25rem;
+  width: 25rem;
+  font-size: 2rem;
+  margin: auto;
+}
+
+.big-cards {
+  width: 31.25rem;
+  margin-top: 3.125rem;
+}
+
+.big-cards img {
+  width: 31.25rem;
+  height: 37.5rem;
+}
+
+.big-cards h2 {
+  padding: 0;
+  margin-bottom: 1.25rem;
+}
+
+.big-cards p,
+.big-cards-btn {
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+
+.big-cards-btn:hover {
+  cursor: grab;
+}
+
+.one {
+  position: absolute;
+  top: 12.5rem;
+  left: 15.63rem;
+}
+
+.two {
+  position: absolute;
+  top: 12.5rem;
+  left: 53.125rem;
+}
+
+.three {
+  position: absolute;
+  top: 68.75rem;
+  left: 15.63rem;
+}
+
+.four {
+  position: absolute;
+  top: 68.75rem;
+  left: 53.125rem;
+}
+
+.seventh-layer {
+  position: relative;
+}
+
+.seventh-layer h3 {
+  text-align: center;
+  width: 25rem;
+  font-size: 2rem;
+  margin: 3.125rem auto;
+}
+
+.eigth-layer {
+  padding: 6.25rem;
+}
+
+.eigth-layer h2 {
+  text-align: center;
+  width: 37.5rem;
+  font-size: 1.5rem;
+  margin: 0 auto 3.125rem;
+}
+
+table {
+  width: 62.5rem;
+  margin: auto;
+}
+
+td,
+th {
+  padding: 0.625rem;
+  text-align: center;
+}
+
+td:hover,
+th:hover {
+  background-color: #e7e7e7;
+}
+
+/* footer  */
+footer {
+  background-color: #191919;
+  color: white;
+  height: 34.37rem;
+  padding: 3.125rem;
+}
+footer h4 {
+  color: white;
+  padding-bottom: 0.4rem;
+}
+footer ul a {
+  color: grey;
+  margin: 0.625rem 0;
+}
+
+footer ul a:hover {
+  border-bottom: 0.06rem solid #e7e7e7;
+}
+
+ul {
+  list-style-type: none;
+}
+.laptop {
+  position: relative;
+  width: 100%;
+  overflow: auto;
+  margin-left: 18.75rem;
+}
+.pc1 {
+  position: absolute;
+  left: 18.75rem;
+  margin-right: 0.9rem;
+  margin-top: 1.25rem;
+}
+.pc2 {
+  position: absolute;
+  left: 15.63rem;
+  margin-right: 0.9rem;
+  top: 1.63rem;
+  width: 9.3rem;
+}
+
+.pc3 {
+  position: absolute;
+  left: 28.125rem;
+  margin-right: 0.9rem;
+  top: 1.63rem;
+  width: 9.3rem;
+}
+
+.pc4 {
+  position: absolute;
+  left: 40.6rem;
+  margin-right: 0.9rem;
+  top: 1.63rem;
+  width: 9.3rem;
+}
+
+.under {
+  position: absolute;
+  top: 6.25rem;
+  margin-right: 0.9rem;
+  margin-top: 3.125rem;
+}
+
+.under2 {
+  position: absolute;
+  top: 6.25rem;
+  margin-right: 0.9rem;
+  margin-top: 3.125rem;
+  left: 15.63rem;
+  width: 18.75rem;
+}
+
+.under3 {
+  position: absolute;
+  top: 6.25rem;
+  margin-right: 0.9rem;
+  margin-top: 3.125rem;
+  left: 28.125rem;
+  width: 18.75rem;
+}
+
+.under4 {
+  position: absolute;
+  top: 31.25rem;
+  margin-right: 0.9rem;
+  left: 2.4rem;
+  font-size: small;
+  width: 62.5rem;
+  height: 1.87rem;
+}
+
+li.last {
+  float: left;
+  margin-left: 0.9rem;
+}
+
+.footer-img-icon {
+  top: 0;
+  position: absolute;
+  right: 62.5rem;
+}
+
+.dropdown-img {
+  position: absolute;
+  right: 6.25rem;
+  top: 0;
+}
+
+.undericons {
+  position: absolute;
+  left: 56.25rem;
+}
